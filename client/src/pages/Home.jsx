@@ -309,6 +309,7 @@ function Home() {
                 Enter Secure Test Mode
               </motion.button>
             </motion.div>
+            <motion.div className='flex flex-wrap gap-5 justify-center mb-10'>
 
             <div className='grid md:grid-cols-2 gap-8'>
               {
