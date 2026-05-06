@@ -159,6 +159,28 @@ function Home() {
                 Try Group Discussion
               </motion.button>
             </motion.div>
+             <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className='flex flex-wrap justify-center gap-4 mt-10'>
+              <motion.button
+                onClick={() => handleNavigate("/interview?type=mock")}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.98 }}
+                className='bg-black dark:bg-emerald-600 text-white px-10 py-3.5 rounded-full hover:opacity-90 transition shadow-lg text-lg font-semibold animate-pulse-glow'>
+                Start Mock Interview
+              </motion.button>
+
+              <motion.button
+                onClick={() => handleNavigate("/interview?type=test")}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.98 }}
+                className='border-2 border-gray-300 dark:border-gray-600 dark:text-gray-200 px-10 py-3.5 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition text-lg font-medium'>
+                Enter Secure Test Mode
+              </motion.button>
+            </motion.div>
+
 
             {/* Trust Badges */}
             <motion.div
