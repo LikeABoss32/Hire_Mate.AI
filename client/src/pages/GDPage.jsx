@@ -4,8 +4,6 @@ import { BsRobot, BsSend, BsArrowLeft, BsMic, BsMicMute } from 'react-icons/bs'
 
 import { FaUsers, FaStop, FaMicrophone } from 'react-icons/fa'
 
-import { FaUsers, FaStop, FaMicrophone} from 'react-icons/fa'
-
 import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import axios from 'axios'
