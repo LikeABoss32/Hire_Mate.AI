@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react'
 import { motion } from "motion/react"
 import { BsRobot, BsSend, BsArrowLeft, BsMic, BsMicMute } from 'react-icons/bs'
-<<<<<<< HEAD
+
 import { FaUsers, FaStop, FaMicrophone } from 'react-icons/fa'
-=======
+
 import { FaUsers, FaStop, FaMicrophone} from 'react-icons/fa'
->>>>>>> b9b0bc8effeae2b922580bc74c46464e9cb1a902
+
 import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import axios from 'axios'
@@ -566,11 +566,11 @@ function GDPage() {
                   className={`w-10 h-10 flex items-center justify-center rounded-full transition flex-shrink-0 ${
                     isMicOn ? 'bg-red-500 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
                   }`}>
-<<<<<<< HEAD
+
                    <FaMicrophone size={14} />
-=======
+
                   <FaMicrophone size={14} />
->>>>>>> b9b0bc8effeae2b922580bc74c46464e9cb1a902
+
                 </motion.button>
 
                 <input
