@@ -67,9 +67,7 @@ function Footer() {
           <p className='text-gray-400 text-xs'>
             © 2026 InterviewIQ.AI. All rights reserved.
           </p>
-          <p className='text-gray-400 text-xs flex items-center gap-1'>
-            Made with <FaHeart className='text-red-400' size={10} /> for job seekers
-          </p>
+         
         </div>
 
       </div>
